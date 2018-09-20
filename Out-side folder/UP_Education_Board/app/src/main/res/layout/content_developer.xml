@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_developer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sunny.up_education_board.Developer"
+    tools:showIn="@layout/activity_developer">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:expanded="false"
+        app:layout_behavior="com.example.sunny.up_education_board.ScrollingCalendarBehavior">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            style="@style/ToolbarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+
+            <RelativeLayout
+                android:id="@+id/date_picker_button"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?android:selectableItemBackground"
+                android:clickable="true"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/backtohome"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:padding="14dp"
+                    android:background="@drawable/mytransperentlayout"
+                    app:srcCompat="@drawable/calendar_prev_arrow" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="-20dp"
+                    android:text="Developer"
+                    android:gravity="center_vertical"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="normal|bold"
+                    android:lineSpacingExtra="16sp" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="sunny6142@gmail.com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#111"
+        android:id="@+id/textView3"
+        android:textSize="20sp"
+        android:gravity="right"
+        android:padding="10dp"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_marginTop="44dp"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="isc2013008@iiita.ac.in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#111"
+        android:id="@+id/textView4"
+        android:gravity="right"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_marginBottom="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView3" />
+
+    <TextView
+        android:text="contact : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#111"
+        android:id="@+id/textView2"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:layout_marginStart="41dp"
+        android:layout_marginBottom="63dp"
+        android:layout_above="@+id/textView4"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="SUNNY SINGH YADAV"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:id="@+id/textView"
+        android:textStyle="normal|bold"
+        android:textSize="24sp"
+        android:layout_below="@+id/app_bar_layout"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

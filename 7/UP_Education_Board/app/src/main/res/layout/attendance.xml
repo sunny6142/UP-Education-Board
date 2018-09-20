@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="65dp">
+
+    <TextView
+        android:id="@+id/statt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click the below button to take student Attendance"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/take_image_from_camera"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="takeImageFromCamera"
+            android:layout_height="wrap_content"
+            android:text="Take Attendance"/>
+        <Button
+            android:id="@+id/sendatt"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="takeImageFromCamera"
+            android:layout_height="wrap_content"
+            android:text="Send Attendence"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/cameraimage"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent" />
+
+
+</LinearLayout>

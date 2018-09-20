@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="ALL" />
+        <item
+            android:id="@+id/nav_present"
+            android:icon="@drawable/present"
+            android:title="Present" />
+        <item
+            android:id="@+id/nav_ouside"
+            android:icon="@drawable/out"
+            android:title="Outside" />
+
+        <item
+            android:id="@+id/nav_absent"
+            android:icon="@drawable/absent"
+            android:title="Absent" />
+        <item
+            android:id="@+id/nav_holiday"
+            android:icon="@drawable/holiday"
+            android:title="Add Holiday" />
+        <item
+            android:id="@+id/nav_add_student"
+            android:icon="@drawable/addstudent"
+            android:title="Add User" />
+
+        <item
+            android:id="@+id/nav_school_code"
+            android:icon="@drawable/changecode"
+            android:title="Change School Code" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_developer"
+                android:icon="@drawable/dev"
+                android:title="Developer" />
+
+            <item
+                android:id="@+id/nav_us"
+                android:icon="@drawable/contact"
+                android:title="Help !!!" />
+
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/exit"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+</menu>

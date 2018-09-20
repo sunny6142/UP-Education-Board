@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sunny.up_education_board.Admin">
+
+    <item
+        android:id="@+id/action_1"
+        android:orderInCategory="100"
+        android:title="D.I.E.T-14A"
+        app:showAsAction="never" />
+    <item
+    android:id="@+id/action_2"
+    android:orderInCategory="100"
+    android:title="D.I.E.T-14B"
+    app:showAsAction="never" />
+    <item
+        android:id="@+id/action_3"
+        android:orderInCategory="100"
+        android:title="D.I.E.T-15A"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_4"
+        android:orderInCategory="100"
+        android:title="D.I.E.T-15B"
+        app:showAsAction="never" />
+</menu>

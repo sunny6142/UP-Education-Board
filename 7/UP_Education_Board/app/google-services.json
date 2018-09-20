@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "704176468227",
+    "firebase_url": "https://upeducationboard-e9761.firebaseio.com",
+    "project_id": "upeducationboard-e9761",
+    "storage_bucket": "upeducationboard-e9761.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704176468227:android:af8cbf95daf0468c",
+        "android_client_info": {
+          "package_name": "com.example.sunny.up_education_board"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704176468227-d17g9qg357mk8iovir5i09rrhnm076oj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sunny.up_education_board",
+            "certificate_hash": "962401f437eed8279a282d06341b19f80a30ae3c"
+          }
+        },
+        {
+          "client_id": "704176468227-qermvadcrtr3qd6n4j2pmgisdprr2lbk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaYbRrW-_UDGh6Bfw0XIGae69eyC5PN34"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704176468227-qermvadcrtr3qd6n4j2pmgisdprr2lbk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

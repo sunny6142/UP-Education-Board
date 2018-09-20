@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_attendence"
+            android:icon="@drawable/present"
+            android:title="Attendence" />
+        <item
+            android:id="@+id/nav_personal"
+            android:icon="@drawable/absent"
+            android:title="Personal Detail" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/holiday"
+            android:title="Leave" />
+        <item
+            android:id="@+id/nav_college"
+            android:icon="@drawable/addstudent"
+            android:title="Colleague Attendence" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/dev"
+                android:title="Contect Developer" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/holiday"
+                android:title="Help" />
+        </menu>
+    </item>
+
+</menu>
